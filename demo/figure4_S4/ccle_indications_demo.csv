@@ -1,0 +1,31 @@
+cell_line,indication
+786O,Renal cancer
+AGS,Gastric cancer
+A253,Head and Neck cancer
+HCT116,Colorectal cancer
+SW480,Colorectal cancer
+HT29,Colorectal cancer
+RKO,Colorectal cancer
+DLD1,Colorectal cancer
+Caco2,Colorectal cancer
+LoVo,Colorectal cancer
+MCF7,Breast cancer
+MDA-MB-231,Breast cancer
+A549,Lung cancer
+H1299,Lung cancer
+U87,CNS
+HeLa,Cervical cancer
+OVCAR3,Ovarian cancer
+SKOV3,Ovarian cancer
+PC3,Prostate cancer
+DU145,Prostate cancer
+HepG2,Liver cancer
+SNU449,Liver cancer
+Panc1,Pancreatic cancer
+MiaPaCa2,Pancreatic cancer
+A498,Renal cancer
+Caki1,Renal cancer
+T24,Urothelial cancer
+RT4,Urothelial cancer
+A375,Melanoma cancer
+WM793,Melanoma cancer

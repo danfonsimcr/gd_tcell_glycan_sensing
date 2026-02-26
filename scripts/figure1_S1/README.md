@@ -1,0 +1,36 @@
+# Figure 1C–D — CRISPR Screen
+
+## Panels
+
+| Panel | Description |
+|-------|-------------|
+| Fig 1C | β-score rank plot (GDT201 1:1 vs NC 1:1) |
+| Fig 1D | Top positively / negatively selected gene tables |
+
+## Input data
+
+Place input in **`demo/figure1_S1/`**.
+
+**MAGeCK MLE gene summary** — any file matching `*gene_summary*.txt` in `demo/figure1_S1/`. TSV with columns including:
+
+```
+Gene      sgRNA  ctrl_05_1|beta  gdt_05_1|beta  ctrl_1_1|beta  gdt_1_1|beta  ...
+SEMA4D    4      0.43176         0.28362        0.27451        0.56219       ...
+```
+
+`diff = gdt_1_1|beta − ctrl_1_1|beta`. The script uses `ReadBeta()` (or MAGeCKFlute) to keep `Gene` and all `|beta` columns.
+
+## Demo data
+
+**`demo/figure1_S1/gene_summary_demo.txt`** — included demo; same column layout, fewer genes. Used if no other *gene_summary*.txt is present.
+
+## How to run
+
+```bash
+cd scripts/figure1_S1/
+Rscript figure1_S1_crispr_screen.R
+```
+
+## Dependencies
+
+R packages: `tidyverse`, `ggrepel`, `MAGeCKFlute` (optional)
