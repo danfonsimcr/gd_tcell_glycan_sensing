@@ -54,7 +54,7 @@ results_ashr <- lfcShrink(dds,
 # -- Annotate ENSEMBL → gene symbols -----------------------------------------
 
 df_res <- as.data.frame(results_ashr) %>%
-  mutate(ENSEMBL = rownames(results_ashr), .before = 1) %>%
+  mutate(ENSEMBL = sub("\\.\\d+$", "", rownames(results_ashr)), .before = 1) %>%
   inner_join(grch38, by = c("ENSEMBL" = "ensgene")) %>%
   arrange(padj)
 

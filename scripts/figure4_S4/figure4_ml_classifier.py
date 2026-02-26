@@ -94,8 +94,9 @@ CLASSIFIERS = {
 }
 
 PREDICTION_COLUMNS = [
-    "logistic_regression_y_pred", "xgboost_y_pred", "gb_trees_y_pred",
-    "random_forest_y_pred", "adaboost_y_pred", "naive_bayes_y_pred",
+    "logistic_regression_y_pred", "xgboost_y_pred", "decision_tree_y_pred",
+    "gb_trees_y_pred", "random_forest_y_pred", "adaboost_y_pred",
+    "naive_bayes_y_pred",
 ]
 
 # Hyperparameter tuning: param_grids per model (from gadeta_classifier_ccle.ipynb)
@@ -111,11 +112,12 @@ TUNED_PARAM_GRIDS = {
 
 
 def train_all_classifiers(X, y, test_size=0.25, random_state=0):
-    scaler = StandardScaler()
-    X_scaled = scaler.fit_transform(X)
     X_train, X_test, y_train, y_test = train_test_split(
-        X_scaled, y, stratify=y, test_size=test_size, random_state=random_state
+        X, y, stratify=y, test_size=test_size, random_state=random_state
     )
+    scaler = StandardScaler()
+    X_train = scaler.fit_transform(X_train)
+    X_test = scaler.transform(X_test)
 
     metrics_rows = []
     fitted = {}
@@ -140,11 +142,12 @@ def train_all_classifiers(X, y, test_size=0.25, random_state=0):
 
 def train_tuned_classifiers(X, y, test_size=0.25, random_state=0, cv_splits=5):
     """Train with hyperparameter tuning via GridSearchCV + StratifiedKFold."""
-    scaler = StandardScaler()
-    X_scaled = scaler.fit_transform(X)
     X_train, X_test, y_train, y_test = train_test_split(
-        X_scaled, y, stratify=y, test_size=test_size, random_state=random_state
+        X, y, stratify=y, test_size=test_size, random_state=random_state
     )
+    scaler = StandardScaler()
+    X_train = scaler.fit_transform(X_train)
+    X_test = scaler.transform(X_test)
     skf = StratifiedKFold(n_splits=cv_splits, shuffle=True, random_state=random_state)
     fitted = {}
     metrics_rows = []

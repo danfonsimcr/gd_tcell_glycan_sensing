@@ -11,6 +11,11 @@
 # Script looks in demo/figure3_S3/ (RNAseq_TCGA_GTEx.csv or RNAseq_TCGA_GTEx_demo.csv).
 # Per-sample, per-gene TPM (TCGA + GTEx). Columns: gene_name, tpm, tpm_log2,
 #   omicsoft_land, primary_indication, sample_id, gross_anatomical_region.
+#
+# Both panels use the pre-computed tpm_log2 column [Log2(TPM+0.1)]:
+#   Sup 3A — mean Log2(TPM+0.1) per gene × tissue, displayed as heatmap.
+#   Sup 3B — ssGSEA via GSVA on the full-transcriptome Log2(TPM+0.1) matrix
+#            (kcdf = "Gaussian" assumes approximately normal input).
 # =============================================================================
 
 suppressPackageStartupMessages({
@@ -127,17 +132,18 @@ pheatmap(combined_matrix_with_gap,
 #
 # ssGSEA ranks ALL genes in each sample's expression profile and calculates
 # an enrichment score for the gene set against that full ranking.  We must
-# pass the complete genes × samples TPM matrix, not just the 3 signature genes.
+# pass the complete genes × samples matrix, not just the 3 signature genes.
+# Log2(TPM+0.1) is used so that kcdf = "Gaussian" is appropriate.
 # =============================================================================
 
 sig_genes <- c("PROCR", "MGAT5", "FUT4")
 gene_set  <- list(PROCR_MGAT5_FUT4 = sig_genes)
 
-# Build a full genes × samples TPM matrix (all genes, TCGA only)
+# Build a full genes × samples Log2(TPM+0.1) matrix (all genes, TCGA only)
 tcga_tpm <- bulk_rna_all %>%
-  filter(omicsoft_land == "TCGA", !is.na(sample_id), !is.na(tpm)) %>%
-  select(gene_name, sample_id, tpm) %>%
-  pivot_wider(names_from = sample_id, values_from = tpm,
+  filter(omicsoft_land == "TCGA", !is.na(sample_id), !is.na(tpm_log2)) %>%
+  select(gene_name, sample_id, tpm_log2) %>%
+  pivot_wider(names_from = sample_id, values_from = tpm_log2,
               values_fn = mean, values_fill = 0) %>%
   column_to_rownames("gene_name") %>%
   as.matrix()

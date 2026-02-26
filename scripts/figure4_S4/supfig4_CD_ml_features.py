@@ -56,15 +56,41 @@ FEATURE_IMPORTANCE_MODELS = [
 ]
 
 
-def train_all_classifiers(X, y, test_size=0.25, random_state=0):
-    scaler = StandardScaler()
-    X_scaled = scaler.fit_transform(X)
+TUNED_PARAM_GRIDS = {
+    "Logistic Regression": {"C": [0.001, 0.01, 0.1, 1, 10, 100], "penalty": ["l1", "l2"], "solver": ["saga"]},
+    "XGBoost": {"learning_rate": [0.01, 0.1, 0.2], "max_depth": [3, 5, 7], "n_estimators": [50, 100, 200]},
+    "Decision Tree": {"max_depth": [3, 5, 7], "min_samples_split": [2, 5, 10]},
+    "Random Forest": {"n_estimators": [50, 100], "max_depth": [None, 10, 20]},
+    "GB Trees": {"learning_rate": [0.01, 0.1, 0.2], "n_estimators": [100, 200], "max_depth": [3, 5, 7]},
+    "Adaboost": {"n_estimators": [50, 100, 200], "learning_rate": [0.01, 0.1, 1.0]},
+    "Naive Bayes": {},
+}
+
+
+def train_tuned_classifiers(X, y, test_size=0.25, random_state=0, cv_splits=5):
+    """Train with hyperparameter tuning (matches figure4_ml_classifier.py)."""
+    from sklearn.model_selection import StratifiedKFold, GridSearchCV
+
     X_train, X_test, y_train, y_test = train_test_split(
-        X_scaled, y, stratify=y, test_size=test_size, random_state=random_state
+        X, y, stratify=y, test_size=test_size, random_state=random_state
     )
+    scaler = StandardScaler()
+    X_train = scaler.fit_transform(X_train)
+    X_test = scaler.transform(X_test)
+
+    skf = StratifiedKFold(n_splits=cv_splits, shuffle=True, random_state=random_state)
     fitted = {}
-    for name, clf in CLASSIFIERS.items():
-        clf.fit(X_train, y_train)
+    for name, base_clf in CLASSIFIERS.items():
+        param_grid = TUNED_PARAM_GRIDS.get(name, {})
+        if param_grid:
+            search = GridSearchCV(
+                base_clf, param_grid, cv=skf, scoring="accuracy", refit=True
+            )
+            search.fit(X_train, y_train)
+            clf = search.best_estimator_
+        else:
+            base_clf.fit(X_train, y_train)
+            clf = base_clf
         fitted[name] = clf
     return fitted, scaler
 
@@ -169,7 +195,7 @@ if __name__ == "__main__":
     y = df["resp_status"]
     X = df[gene_cols]
 
-    fitted, scaler = train_all_classifiers(X, y)
+    fitted, scaler = train_tuned_classifiers(X, y)
 
     # Sup Fig 4C — Feature importance
     norm_imps = plot_feature_importance(fitted, gene_cols)
