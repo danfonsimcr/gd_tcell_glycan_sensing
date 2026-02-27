@@ -111,35 +111,6 @@ TUNED_PARAM_GRIDS = {
 }
 
 
-def train_all_classifiers(X, y, test_size=0.25, random_state=0):
-    X_train, X_test, y_train, y_test = train_test_split(
-        X, y, stratify=y, test_size=test_size, random_state=random_state
-    )
-    scaler = StandardScaler()
-    X_train = scaler.fit_transform(X_train)
-    X_test = scaler.transform(X_test)
-
-    metrics_rows = []
-    fitted = {}
-    for name, clf in CLASSIFIERS.items():
-        clf.fit(X_train, y_train)
-        y_pred = clf.predict(X_test)
-        y_prob = clf.predict_proba(X_test)[:, 1]
-
-        metrics_rows.append({
-            "model_name": name,
-            "accuracy": accuracy_score(y_test, y_pred),
-            "roc_auc": roc_auc_score(y_test, y_prob),
-            "recall": recall_score(y_test, y_pred),
-            "precision": precision_score(y_test, y_pred),
-            "f1": f1_score(y_test, y_pred),
-        })
-        fitted[name] = clf
-
-    metrics_df = pd.DataFrame(metrics_rows).set_index("model_name").round(3)
-    return fitted, metrics_df, scaler
-
-
 def train_tuned_classifiers(X, y, test_size=0.25, random_state=0, cv_splits=5):
     """Train with hyperparameter tuning via GridSearchCV + StratifiedKFold."""
     X_train, X_test, y_train, y_test = train_test_split(

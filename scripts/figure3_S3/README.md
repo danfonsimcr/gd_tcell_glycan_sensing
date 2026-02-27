@@ -58,4 +58,25 @@ Rscript figure3D_S3D_bulk_rna.R
 ## Dependencies
 
 - **scRNA:** `Seurat` (≥5.0), `harmony`, `ggplot2`, `patchwork`, `dplyr`, `tidyr`, `data.table`, `ggpubr`, `future`
-- **Bulk RNA:** `ggplot2`, `dplyr`, `tidyr`, `pheatmap`, `tibble`, `scales` (z-score computed in R; no GSVA)
+- **Bulk RNA:** `ggplot2`, `dplyr`, `tidyr`, `pheatmap`, `tibble`, `scales`
+
+### Environment / package versions
+
+Tested with **R 4.5.2**. Example versions:
+
+| Package   | Version  | Used by  |
+|-----------|----------|----------|
+| Seurat    | 5.4.0    | scRNA    |
+| harmony   | 1.2.4    | scRNA    |
+| ggplot2   | 4.0.2    | both     |
+| patchwork | 1.3.2    | scRNA    |
+| dplyr     | 1.2.0    | both     |
+| tidyr     | 1.3.2    | both     |
+| data.table| 1.18.2.1 | scRNA    |
+| ggpubr    | 0.6.3    | scRNA    |
+| future    | 1.69.0   | scRNA    |
+| pheatmap  | 1.0.13   | Bulk RNA |
+| tibble    | 3.3.1    | Bulk RNA |
+| scales    | 1.4.0    | Bulk RNA |
+
+To capture your R environment: run `sessionInfo()` in R, or use `renv::snapshot()`.

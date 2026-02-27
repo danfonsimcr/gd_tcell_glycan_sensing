@@ -33,4 +33,16 @@ Rscript figure1_S1_crispr_screen.R
 
 ## Dependencies
 
-R packages: `tidyverse`, `ggrepel`, `MAGeCKFlute` (optional)
+R packages: `tidyverse`, `ggrepel`, `MAGeCKFlute` (optional).
+
+### Environment / package versions
+
+Tested with **R 4.5.2**. Example versions:
+
+| Package     | Version |
+|------------|---------|
+| tidyverse  | 2.0.0   |
+| ggrepel    | 0.9.7   |
+| MAGeCKFlute| (optional) |
+
+To capture your R environment: run `sessionInfo()` and `packageVersion("pkgname")` in R, or use `renv::snapshot()`.

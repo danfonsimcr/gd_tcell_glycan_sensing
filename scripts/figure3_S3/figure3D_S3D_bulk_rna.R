@@ -241,11 +241,3 @@ p_violin <- ggplot(z_plot_data,
     x = "Tissue / Cancer Type", y = "Composite Signature Z-Score"
   )
 print(p_violin)
-
-out_dir <- "../../output/figure3_S3"
-if (dir.exists(out_dir)) {
-  ggsave(file.path(out_dir, "Sup3B_zscore_violin.pdf"), plot = p_violin,
-         width = 14, height = 8)
-  ggsave(file.path(out_dir, "Sup3B_zscore_violin.png"), plot = p_violin,
-         width = 14, height = 8, dpi = 300)
-}

@@ -45,8 +45,6 @@ scripts/
 | S4 | C | ML feature importance (normalised 0–1) | `figure4_S4/supfig4_CD_ml_features.py` |
 | S4 | D | Sum norm features vs CRISPR β-score | `figure4_S4/supfig4_CD_ml_features.py` |
 
-Panels not listed (flow cytometry, IHC, functional assays) are experimental and not generated from code.
-
 ## How to run
 
 ```bash
@@ -59,7 +57,7 @@ python figure4_S4/figure4_ml_classifier.py
 python figure4_S4/supfig4_CD_ml_features.py
 ```
 
-Each script header contains the input data description and a tidy head representation of the expected data format. See the per-folder README for detailed input file tables.
+Each script header contains the input data description and a tidy head representation of the expected data format. See the per-folder README for detailed input file tables and **environment / package versions** (R `sessionInfo()` and Python `conda list` / `pip list`).
 
 ## Data (demo/)
 

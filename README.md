@@ -76,7 +76,7 @@ Rscript scripts/figure4_S4/supfig4_AB_deseq2.R
 python scripts/figure4_S4/supfig4_CD_ml_features.py
 ```
 
-For panel-to-script mapping and per-figure details, see **`scripts/README.md`** and the README in each `scripts/figureN_SN/` folder.
+For panel-to-script mapping, per-figure details, and **R/Python environment and package versions**, see **`scripts/README.md`** and the README in each `scripts/figureN_SN/` folder.
 
 ## Figure 3 scRNA RDS
 
