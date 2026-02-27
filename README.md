@@ -26,7 +26,7 @@ Place your input files in the matching `demo/figureN_SN/` folder. Scripts use th
 
 | File | Description |
 |------|-------------|
-| Any `*gene_summary*.txt` | MAGeCK MLE gene summary (TSV: Gene, sgRNA, ctrl_1_1\|beta, gdt_1_1\|beta, …). If none, script uses `gene_summary_demo.txt`. |
+| `gene_summary_demo.txt` | MAGeCK MLE gene summary (TSV: Gene, sgRNA, ctrl_1_1\|beta, gdt_1_1\|beta, …). Included demo file; script also checks for full pipeline output. |
 
 ### demo/figure3_S3/
 

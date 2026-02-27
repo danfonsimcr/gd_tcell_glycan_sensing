@@ -11,7 +11,7 @@
 
 Place input in **`demo/figure1_S1/`**.
 
-**MAGeCK MLE gene summary** — any file matching `*gene_summary*.txt` in `demo/figure1_S1/`. TSV with columns including:
+**MAGeCK MLE gene summary** — `demo/figure1_S1/gene_summary_demo.txt` (included), or the pipeline output at `crispr_analysis/output/combined_res_all_replicates/gadeta_mle_all_reps.gene_summary.txt`. TSV with columns including:
 
 ```
 Gene      sgRNA  ctrl_05_1|beta  gdt_05_1|beta  ctrl_1_1|beta  gdt_1_1|beta  ...
@@ -22,7 +22,7 @@ SEMA4D    4      0.43176         0.28362        0.27451        0.56219       ...
 
 ## Demo data
 
-**`demo/figure1_S1/gene_summary_demo.txt`** — included demo; same column layout, fewer genes. Used if no other *gene_summary*.txt is present.
+**`demo/figure1_S1/gene_summary_demo.txt`** — included demo; same column layout, fewer genes. Used when the full pipeline output is not available.
 
 ## How to run
 

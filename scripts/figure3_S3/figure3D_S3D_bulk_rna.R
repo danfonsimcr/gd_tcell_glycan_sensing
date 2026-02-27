@@ -52,6 +52,11 @@ if ("sample_category" %in% names(bulk_rna_all)) {
 }
 
 # -- Gene sets -----------------------------------------------------------------
+# 16 genes from the CRISPR screen that are reliably quantified in bulk
+# RNA-seq (TCGA/GTEx). Includes butyrophilins (BTNL3/8) and MAN1A1 that
+# are present in bulk but sparse in scRNA-seq. Compare with the scRNA
+# gene set in figure3_S3_scrna_coad.R, which swaps these for MAN2A1,
+# TSTA3, and FUT6 (detectable in the single-cell data).
 crispr_hit_genes <- c("BTNL3", "BTNL8", "FUT3", "FUT4", "FUT5", "FUT9",
                       "GMDS", "MAN1A1", "MAN1A2", "MGAT1", "MGAT2",
                       "MGAT5", "PROCR", "SLC35C1", "TM9SF1", "TM9SF3")

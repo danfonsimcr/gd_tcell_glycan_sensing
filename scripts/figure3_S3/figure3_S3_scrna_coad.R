@@ -51,10 +51,11 @@ suppressPackageStartupMessages({
 })
 
 Sys.setenv("R_MAX_VSIZE" = 60 * 1024^3)
-plan("multicore", workers = 16)
+n_workers <- min(16L, future::availableCores())
+plan("multicore", workers = n_workers)
 options(future.globals.maxSize = 60 * 1024^3)
 options(future.rng.onMisuse = "ignore")
-setDTthreads(threads = 16)
+setDTthreads(threads = n_workers)
 
 # =============================================================================
 # Build coad_merged_harmony.rds  (skip if the file already exists)
@@ -216,7 +217,9 @@ set.seed(42)
 merged_clean <- merged_clean[, sample(colnames(merged_clean))]
 gc()
 
-# Gene sets (matching coad_analysis.rmd)
+# 16 CRISPR hit + FUT-family genes detectable in the scRNA-seq data.
+# Differs from the bulk RNA gene set (figure3D_S3D_bulk_rna.R) which
+# includes BTNL3/8 and MAN1A1 instead of MAN2A1, TSTA3, and FUT6.
 genes_sparse <- c("FUT3", "FUT4", "FUT5", "FUT6", "FUT9", "GMDS", "TSTA3",
                    "MGAT5", "PROCR", "SLC35C1", "TM9SF1", "TM9SF3", "MAN2A1",
                    "MGAT1", "MGAT2", "MAN1A2")
@@ -242,7 +245,7 @@ make_expression_bins(merged_clean, genes_subset_present, "tissue_group") +
 # =============================================================================
 # Figure 3F — UMAP coloured by cell type
 # =============================================================================
-DimPlot(merged, reduction = "umap", group.by = "cell.type",
+DimPlot(merged_clean, reduction = "umap", group.by = "cell.type",
         pt.size = 0.1, label = TRUE, repel = TRUE) +
   theme_publication() + labs(title = "", x = "UMAP 1", y = "UMAP 2")
 

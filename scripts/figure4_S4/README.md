@@ -55,7 +55,7 @@ python supfig4_CD_ml_features.py
 ## Dependencies
 
 - **Python:** `scikit-learn`, `xgboost`, `pandas`, `numpy`, `matplotlib`, `seaborn`, `scipy`
-- **R:** `DESeq2`, `tidyverse`, `pheatmap`, `annotables`, `EnhancedVolcano`, `ggrepel`, `patchwork`, `ashr`
+- **R:** `DESeq2`, `tidyverse`, `pheatmap`, `annotables`, `ggrepel`, `patchwork`, `ashr`
 
 ### Environment / package versions
 
@@ -83,7 +83,6 @@ To capture: `conda activate gdt201 && conda list` or `pip list`.
 | patchwork      | 1.3.2    |
 | DESeq2         | Bioconductor   |
 | annotables     | GitHub (optional) |
-| EnhancedVolcano| Bioconductor   |
 | ashr           | CRAN           |
 
 To capture: run `sessionInfo()` in R.

@@ -79,18 +79,6 @@ df_1_1 <- gdata %>%
   mutate(diff = gdt_1_1 - ctrl_1_1,
          rank = rank(diff))
 
-# -- Output directory ----------------------------------------------------------
-
-fig_dir <- file.path(script_dir, "../../output/figure1_S1")
-dir.create(fig_dir, recursive = TRUE, showWarnings = FALSE)
-
-save_fig <- function(name, p, w = 7, h = 7) {
-  ggsave(file.path(fig_dir, paste0(name, ".pdf")), p, width = w, height = h)
-  ggsave(file.path(fig_dir, paste0(name, ".png")), p, width = w, height = h,
-         dpi = 300)
-  message("  Saved: ", file.path(fig_dir, name), " (.pdf + .png)")
-}
-
 # =============================================================================
 # Figure 1C — beta-score rank plot (GDT201 1:1 vs NC 1:1)
 # Blue = positively selected (beta > 0.5); Red = negatively selected (< -0.5)
@@ -114,7 +102,7 @@ p_1c <- ggplot(df_1_1, aes(x = diff, y = rank)) +
   ylim(-500, 25000) +
   theme_bw()
 
-save_fig("fig1C_rank_gdt201_1_1_vs_nc", p_1c)
+print(p_1c)
 
 # =============================================================================
 # Figure 1D — Curated table of top positively selected genes
@@ -150,9 +138,5 @@ fig1d_table <- pos_ranked %>%
   dplyr::select(Rank, Beta_Score, Gene = Alias, Function) %>%
   arrange(Rank)
 
-write_csv(fig1d_table, file.path(fig_dir, "fig1D_top_genes.csv"))
-message("  Wrote: ", file.path(fig_dir, "fig1D_top_genes.csv"))
 message("  Table:")
 print(as.data.frame(fig1d_table), row.names = FALSE, right = FALSE)
-
-message("\nDone. Output in: ", normalizePath(fig_dir, mustWork = FALSE))

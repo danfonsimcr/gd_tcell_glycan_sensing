@@ -48,13 +48,18 @@ scripts/
 ## How to run
 
 ```bash
-# R scripts
+# Figure 1 (R)
 Rscript figure1_S1/figure1_S1_crispr_screen.R
 
-# Python
+# Figure 3 (R — scRNA requires ~60 GB RAM)
+Rscript figure3_S3/figure3D_S3D_bulk_rna.R
+Rscript figure3_S3/figure3_S3_scrna_coad.R
+
+# Figure 4 (Python + R)
 conda activate gdt201
 python figure4_S4/figure4_ml_classifier.py
 python figure4_S4/supfig4_CD_ml_features.py
+Rscript figure4_S4/supfig4_AB_deseq2.R
 ```
 
 Each script header contains the input data description and a tidy head representation of the expected data format. See the per-folder README for detailed input file tables and **environment / package versions** (R `sessionInfo()` and Python `conda list` / `pip list`).
@@ -65,6 +70,6 @@ All input data lives in **`demo/`**. Use the included demo files or put your own
 
 | Figure | Data location |
 |--------|----------------|
-| 1 | `demo/figure1_S1/` (*gene_summary*.txt or gene_summary_demo.txt) |
+| 1 | `demo/figure1_S1/` (gene_summary_demo.txt) |
 | 3 | `demo/figure3_S3/` (bulk CSV; scRNA: build RDS from Synapse files, see figure3_S3/README.md) |
 | 4 | `demo/figure4_S4/` (included *_demo.csv files or your own) |
