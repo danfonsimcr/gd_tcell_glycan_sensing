@@ -33,7 +33,7 @@ scripts/
 | 3 | F | UMAP by cell type | `figure3_S3/figure3_S3_scrna_coad.R` |
 | 3 | G | Expression bins by cell type (tumor / normal) | `figure3_S3/figure3_S3_scrna_coad.R` |
 | S3 | A | mRNA expression heatmap (TCGA + GTEx, CRISPR hit genes) | `figure3_S3/figure3D_S3D_bulk_rna.R` |
-| S3 | B | ssGSEA score distribution (PROCR, MGAT5, FUT4) | `figure3_S3/figure3D_S3D_bulk_rna.R` |
+| S3 | B | Composite Z-score violin (PROCR, MGAT5, FUT4 signature) | `figure3_S3/figure3D_S3D_bulk_rna.R` |
 | S3 | C | Expression bins — all CRISPR hit + FUT genes by tissue type | `figure3_S3/figure3_S3_scrna_coad.R` |
 | S3 | D | Expression bins (FUT4, MGAT5, PROCR) by CMS, MSI vs MSS, iCMS | `figure3_S3/figure3_S3_scrna_coad.R` |
 | 4 | A | CCLE responder histogram | `figure4_S4/figure4_ml_classifier.py` |
