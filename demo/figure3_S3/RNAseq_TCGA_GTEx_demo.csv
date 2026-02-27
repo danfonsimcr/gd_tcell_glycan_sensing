@@ -1,97 +1,697 @@
-gene_name,tpm,tpm_log2,omicsoft_land,primary_indication,sample_id,gross_anatomical_region
-BTNL3,2.1,1.23,TCGA,Colorectal cancer,TCGA-DEMO-01,NA
-BTNL3,1.8,1.10,TCGA,Colorectal cancer,TCGA-DEMO-02,NA
-BTNL3,3.0,1.65,TCGA,Breast cancer,TCGA-DEMO-03,NA
-BTNL8,0.5,0.00,TCGA,Colorectal cancer,TCGA-DEMO-01,NA
-BTNL8,0.4,0.00,TCGA,Colorectal cancer,TCGA-DEMO-02,NA
-BTNL8,1.2,0.58,TCGA,Breast cancer,TCGA-DEMO-03,NA
-FUT3,5.2,2.58,TCGA,Colorectal cancer,TCGA-DEMO-01,NA
-FUT3,4.1,2.22,TCGA,Colorectal cancer,TCGA-DEMO-02,NA
-FUT3,3.0,1.80,TCGA,Breast cancer,TCGA-DEMO-03,NA
-FUT4,8.5,3.25,TCGA,Colorectal cancer,TCGA-DEMO-01,NA
-FUT4,7.2,3.00,TCGA,Colorectal cancer,TCGA-DEMO-02,NA
-FUT4,4.2,2.38,TCGA,Breast cancer,TCGA-DEMO-03,NA
-FUT5,2.0,1.20,TCGA,Colorectal cancer,TCGA-DEMO-01,NA
-FUT5,2.5,1.45,TCGA,Colorectal cancer,TCGA-DEMO-02,NA
-FUT5,1.8,1.05,TCGA,Breast cancer,TCGA-DEMO-03,NA
-FUT9,1.1,0.65,TCGA,Colorectal cancer,TCGA-DEMO-01,NA
-FUT9,1.3,0.75,TCGA,Colorectal cancer,TCGA-DEMO-02,NA
-FUT9,0.9,0.50,TCGA,Breast cancer,TCGA-DEMO-03,NA
-GMDS,12.0,3.68,TCGA,Colorectal cancer,TCGA-DEMO-01,NA
-GMDS,10.5,3.52,TCGA,Colorectal cancer,TCGA-DEMO-02,NA
-GMDS,8.0,3.15,TCGA,Breast cancer,TCGA-DEMO-03,NA
-MAN1A1,6.2,2.78,TCGA,Colorectal cancer,TCGA-DEMO-01,NA
-MAN1A1,5.0,2.52,TCGA,Colorectal cancer,TCGA-DEMO-02,NA
-MAN1A1,7.1,2.98,TCGA,Breast cancer,TCGA-DEMO-03,NA
-MAN1A2,3.5,2.00,TCGA,Colorectal cancer,TCGA-DEMO-01,NA
-MAN1A2,4.0,2.15,TCGA,Colorectal cancer,TCGA-DEMO-02,NA
-MAN1A2,2.8,1.75,TCGA,Breast cancer,TCGA-DEMO-03,NA
-MGAT1,15.0,4.00,TCGA,Colorectal cancer,TCGA-DEMO-01,NA
-MGAT1,14.2,3.92,TCGA,Colorectal cancer,TCGA-DEMO-02,NA
-MGAT1,11.0,3.55,TCGA,Breast cancer,TCGA-DEMO-03,NA
-MGAT2,9.0,3.25,TCGA,Colorectal cancer,TCGA-DEMO-01,NA
-MGAT2,8.5,3.15,TCGA,Colorectal cancer,TCGA-DEMO-02,NA
-MGAT2,6.2,2.75,TCGA,Breast cancer,TCGA-DEMO-03,NA
-MGAT5,4.2,2.38,TCGA,Colorectal cancer,TCGA-DEMO-01,NA
-MGAT5,5.0,2.58,TCGA,Colorectal cancer,TCGA-DEMO-02,NA
-MGAT5,3.0,2.00,TCGA,Breast cancer,TCGA-DEMO-03,NA
-PROCR,8.5,3.25,TCGA,Colorectal cancer,TCGA-DEMO-01,NA
-PROCR,9.2,3.35,TCGA,Colorectal cancer,TCGA-DEMO-02,NA
-PROCR,2.1,1.23,TCGA,Breast cancer,TCGA-DEMO-03,NA
-SLC35C1,7.0,2.95,TCGA,Colorectal cancer,TCGA-DEMO-01,NA
-SLC35C1,6.5,2.85,TCGA,Colorectal cancer,TCGA-DEMO-02,NA
-SLC35C1,5.0,2.52,TCGA,Breast cancer,TCGA-DEMO-03,NA
-TM9SF1,4.5,2.35,TCGA,Colorectal cancer,TCGA-DEMO-01,NA
-TM9SF1,4.0,2.22,TCGA,Colorectal cancer,TCGA-DEMO-02,NA
-TM9SF1,3.2,1.95,TCGA,Breast cancer,TCGA-DEMO-03,NA
-TM9SF3,3.8,2.15,TCGA,Colorectal cancer,TCGA-DEMO-01,NA
-TM9SF3,4.2,2.25,TCGA,Colorectal cancer,TCGA-DEMO-02,NA
-TM9SF3,2.5,1.65,TCGA,Breast cancer,TCGA-DEMO-03,NA
-BTNL3,1.5,0.90,GTEX,NA,GTEX-DEMO-01,Large intestine
-BTNL3,1.8,1.10,GTEX,NA,GTEX-DEMO-02,Large intestine
-BTNL3,2.0,1.15,GTEX,NA,GTEX-DEMO-03,Breast
-BTNL8,0.3,0.00,GTEX,NA,GTEX-DEMO-01,Large intestine
-BTNL8,0.5,0.00,GTEX,NA,GTEX-DEMO-02,Large intestine
-BTNL8,0.4,0.00,GTEX,NA,GTEX-DEMO-03,Breast
-FUT3,4.0,2.22,GTEX,NA,GTEX-DEMO-01,Large intestine
-FUT3,4.5,2.35,GTEX,NA,GTEX-DEMO-02,Large intestine
-FUT3,3.2,1.90,GTEX,NA,GTEX-DEMO-03,Breast
-FUT4,6.0,2.75,GTEX,NA,GTEX-DEMO-01,Large intestine
-FUT4,7.0,2.95,GTEX,NA,GTEX-DEMO-02,Large intestine
-FUT4,3.5,2.00,GTEX,NA,GTEX-DEMO-03,Breast
-FUT5,1.8,1.05,GTEX,NA,GTEX-DEMO-01,Large intestine
-FUT5,2.2,1.25,GTEX,NA,GTEX-DEMO-02,Large intestine
-FUT5,1.5,0.90,GTEX,NA,GTEX-DEMO-03,Breast
-FUT9,1.0,0.58,GTEX,NA,GTEX-DEMO-01,Large intestine
-FUT9,1.2,0.65,GTEX,NA,GTEX-DEMO-02,Large intestine
-FUT9,0.8,0.50,GTEX,NA,GTEX-DEMO-03,Breast
-GMDS,11.0,3.55,GTEX,NA,GTEX-DEMO-01,Large intestine
-GMDS,10.0,3.45,GTEX,NA,GTEX-DEMO-02,Large intestine
-GMDS,9.0,3.25,GTEX,NA,GTEX-DEMO-03,Breast
-MAN1A1,5.5,2.65,GTEX,NA,GTEX-DEMO-01,Large intestine
-MAN1A1,6.0,2.70,GTEX,NA,GTEX-DEMO-02,Large intestine
-MAN1A1,6.5,2.85,GTEX,NA,GTEX-DEMO-03,Breast
-MAN1A2,3.2,1.90,GTEX,NA,GTEX-DEMO-01,Large intestine
-MAN1A2,3.8,2.05,GTEX,NA,GTEX-DEMO-02,Large intestine
-MAN1A2,2.5,1.65,GTEX,NA,GTEX-DEMO-03,Breast
-MGAT1,14.0,3.95,GTEX,NA,GTEX-DEMO-01,Large intestine
-MGAT1,13.5,3.88,GTEX,NA,GTEX-DEMO-02,Large intestine
-MGAT1,12.0,3.70,GTEX,NA,GTEX-DEMO-03,Breast
-MGAT2,8.0,3.15,GTEX,NA,GTEX-DEMO-01,Large intestine
-MGAT2,8.5,3.25,GTEX,NA,GTEX-DEMO-02,Large intestine
-MGAT2,7.0,2.95,GTEX,NA,GTEX-DEMO-03,Breast
-MGAT5,3.8,2.25,GTEX,NA,GTEX-DEMO-01,Large intestine
-MGAT5,4.5,2.45,GTEX,NA,GTEX-DEMO-02,Large intestine
-MGAT5,2.8,1.85,GTEX,NA,GTEX-DEMO-03,Breast
-PROCR,7.5,3.05,GTEX,NA,GTEX-DEMO-01,Large intestine
-PROCR,8.0,3.15,GTEX,NA,GTEX-DEMO-02,Large intestine
-PROCR,1.8,1.05,GTEX,NA,GTEX-DEMO-03,Breast
-SLC35C1,6.5,2.85,GTEX,NA,GTEX-DEMO-01,Large intestine
-SLC35C1,6.0,2.75,GTEX,NA,GTEX-DEMO-02,Large intestine
-SLC35C1,5.5,2.65,GTEX,NA,GTEX-DEMO-03,Breast
-TM9SF1,4.2,2.25,GTEX,NA,GTEX-DEMO-01,Large intestine
-TM9SF1,4.0,2.22,GTEX,NA,GTEX-DEMO-02,Large intestine
-TM9SF1,3.0,1.85,GTEX,NA,GTEX-DEMO-03,Breast
-TM9SF3,3.5,2.05,GTEX,NA,GTEX-DEMO-01,Large intestine
-TM9SF3,3.8,2.15,GTEX,NA,GTEX-DEMO-02,Large intestine
-TM9SF3,2.2,1.55,GTEX,NA,GTEX-DEMO-03,Breast
+"gene_name","tpm","tpm_log2","omicsoft_land","primary_indication","sample_id","gross_anatomical_region"
+"BTNL3",2.1,1.23,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"BTNL3",1.8,1.1,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"BTNL3",3,1.65,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"BTNL8",0.5,0,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"BTNL8",0.4,0,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"BTNL8",1.2,0.58,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"FUT3",5.2,2.58,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"FUT3",4.1,2.22,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"FUT3",3,1.8,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"FUT4",8.5,3.25,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"FUT4",7.2,3,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"FUT4",4.2,2.38,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"FUT5",2,1.2,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"FUT5",2.5,1.45,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"FUT5",1.8,1.05,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"FUT9",1.1,0.65,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"FUT9",1.3,0.75,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"FUT9",0.9,0.5,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"GMDS",12,3.68,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"GMDS",10.5,3.52,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"GMDS",8,3.15,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"MAN1A1",6.2,2.78,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"MAN1A1",5,2.52,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"MAN1A1",7.1,2.98,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"MAN1A2",3.5,2,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"MAN1A2",4,2.15,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"MAN1A2",2.8,1.75,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"MGAT1",15,4,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"MGAT1",14.2,3.92,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"MGAT1",11,3.55,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"MGAT2",9,3.25,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"MGAT2",8.5,3.15,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"MGAT2",6.2,2.75,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"MGAT5",4.2,2.38,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"MGAT5",5,2.58,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"MGAT5",3,2,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"PROCR",8.5,3.25,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"PROCR",9.2,3.35,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"PROCR",2.1,1.23,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"SLC35C1",7,2.95,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"SLC35C1",6.5,2.85,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"SLC35C1",5,2.52,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"TM9SF1",4.5,2.35,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"TM9SF1",4,2.22,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"TM9SF1",3.2,1.95,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"TM9SF3",3.8,2.15,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"TM9SF3",4.2,2.25,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"TM9SF3",2.5,1.65,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"BTNL3",1.5,0.9,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"BTNL3",1.8,1.1,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"BTNL3",2,1.15,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"BTNL8",0.3,0,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"BTNL8",0.5,0,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"BTNL8",0.4,0,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"FUT3",4,2.22,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"FUT3",4.5,2.35,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"FUT3",3.2,1.9,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"FUT4",6,2.75,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"FUT4",7,2.95,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"FUT4",3.5,2,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"FUT5",1.8,1.05,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"FUT5",2.2,1.25,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"FUT5",1.5,0.9,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"FUT9",1,0.58,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"FUT9",1.2,0.65,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"FUT9",0.8,0.5,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"GMDS",11,3.55,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"GMDS",10,3.45,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"GMDS",9,3.25,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"MAN1A1",5.5,2.65,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"MAN1A1",6,2.7,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"MAN1A1",6.5,2.85,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"MAN1A2",3.2,1.9,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"MAN1A2",3.8,2.05,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"MAN1A2",2.5,1.65,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"MGAT1",14,3.95,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"MGAT1",13.5,3.88,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"MGAT1",12,3.7,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"MGAT2",8,3.15,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"MGAT2",8.5,3.25,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"MGAT2",7,2.95,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"MGAT5",3.8,2.25,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"MGAT5",4.5,2.45,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"MGAT5",2.8,1.85,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"PROCR",7.5,3.05,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"PROCR",8,3.15,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"PROCR",1.8,1.05,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"SLC35C1",6.5,2.85,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"SLC35C1",6,2.75,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"SLC35C1",5.5,2.65,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"TM9SF1",4.2,2.25,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"TM9SF1",4,2.22,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"TM9SF1",3,1.85,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"TM9SF3",3.5,2.05,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"TM9SF3",3.8,2.15,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"TM9SF3",2.2,1.55,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"GAPDH",231.5,7.86,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"ACTB",72.9,6.19,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"B2M",131.6,7.04,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"HPRT1",116.1,6.86,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"TBP",149.5,7.22,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"PPIA",106.7,6.74,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPLP0",159.8,7.32,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPL13A",120.3,6.91,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"SDHA",150.8,7.24,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"HMBS",101.2,6.66,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"YWHAZ",142,7.15,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"UBC",250.9,7.97,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"GUSB",21.3,4.42,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"HSP90AB1",100.8,6.66,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"LDHA",110.7,6.79,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"PGK1",176.6,7.47,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"TFRC",89.6,6.49,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"ALAS1",6.9,2.81,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"IPO8",5.3,2.43,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"POLR2A",194,7.6,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPS18",76,6.25,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPL19",15.8,3.99,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPL32",113.7,6.83,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"EEF1A1",193.1,7.59,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"EIF4A2",208.2,7.7,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"ATP5F1B",63.6,5.99,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"NDUFA1",96.8,6.6,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"COX7C",14.5,3.87,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"UQCRB",110,6.78,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"VDAC1",56.4,5.82,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"TUBA1A",176.4,7.46,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"TUBB",159.2,7.32,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"VIM",138.9,7.12,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"FLNA",69.3,6.12,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"MYH9",118.4,6.89,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"CLTC",10.5,3.41,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RAB1A",46.6,5.55,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RAB5A",49.2,5.62,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RAB7A",6,2.61,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"LAMP1",73.8,6.21,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"HSP90AA1",94.1,6.56,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"HSPA8",81.6,6.35,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"HSPA5",162.3,7.34,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"CCT2",38.1,5.26,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"CCT5",19.2,4.27,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"TCP1",94.6,6.57,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"CANX",57.5,5.85,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"CALR",211.6,7.73,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"PDIA3",70.6,6.14,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"SEC61A1",160.8,7.33,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPN1",105.5,6.72,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPN2",44.1,5.47,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"SSR1",241.2,7.91,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"TRAM1",170.2,7.41,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"SRP54",76.8,6.26,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"SRP68",148.7,7.22,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"SRP72",147.2,7.2,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"PSMA1",111.9,6.81,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"PSMB1",4.8,2.29,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"PSMC1",148.9,7.22,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"UBA1",70.6,6.14,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"UBE2D3",123.1,6.94,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"SKP1",136.2,7.09,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"CUL1",235.4,7.88,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RBX1",57.3,5.84,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"COPS5",192.5,7.59,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"GPS1",161.8,7.34,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"EIF3A",179,7.48,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"EIF3B",126.9,6.99,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"EIF3E",165.5,7.37,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPL3",25.4,4.67,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPL4",111.5,6.8,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPL5",176.2,7.46,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPL7",48.4,5.6,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPL8",49.1,5.62,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPL10",129.9,7.02,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPL11",146.9,7.2,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPL14",160.1,7.32,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPL18",29.9,4.91,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPL23",34.9,5.13,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPS3",193,7.59,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPS4X",100.1,6.65,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPS5",88.3,6.47,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPS6",82.9,6.38,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPS8",22.4,4.49,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPS10",139.5,7.13,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPS14",84.7,6.41,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPS15",69.1,6.11,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPS19",175,7.45,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"RPS24",185.7,7.54,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"HNRNPA1",224.1,7.81,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"HNRNPC",57.2,5.84,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"HNRNPK",172,7.43,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"HNRNPU",216.4,7.76,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"SRSF1",27.1,4.77,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"SRSF3",50.3,5.66,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"SF3B1",23.4,4.55,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"SNRPD1",14,3.82,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"DDX5",83.4,6.38,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"DHX9",170.7,7.42,"TCGA","Colorectal cancer","TCGA-DEMO-01",NA
+"GAPDH",179.4,7.49,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"ACTB",165.3,7.37,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"B2M",34.5,5.11,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"HPRT1",191.9,7.58,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"TBP",46.4,5.54,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"PPIA",120.6,6.92,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPLP0",52,5.7,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPL13A",111.9,6.81,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"SDHA",106.8,6.74,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"HMBS",138.1,7.11,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"YWHAZ",80.7,6.34,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"UBC",141.6,7.15,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"GUSB",78.9,6.3,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"HSP90AB1",52.6,5.72,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"LDHA",12.2,3.62,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"PGK1",58.4,5.87,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"TFRC",45.7,5.52,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"ALAS1",235.7,7.88,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"IPO8",26.7,4.74,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"POLR2A",107.8,6.75,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPS18",18.9,4.25,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPL19",15.5,3.96,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPL32",111,6.8,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"EEF1A1",28.5,4.84,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"EIF4A2",129.4,7.02,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"ATP5F1B",57.1,5.84,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"NDUFA1",58.7,5.88,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"COX7C",10.8,3.45,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"UQCRB",27.1,4.77,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"VDAC1",124.7,6.96,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"TUBA1A",111.8,6.81,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"TUBB",83.2,6.38,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"VIM",80.1,6.33,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"FLNA",143.6,7.17,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"MYH9",228.4,7.84,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"CLTC",37,5.21,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RAB1A",73,6.19,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RAB5A",160.2,7.32,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RAB7A",63.4,5.99,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"LAMP1",90.6,6.5,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"HSP90AA1",69.9,6.13,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"HSPA8",53.6,5.75,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"HSPA5",55.4,5.79,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"CCT2",71.3,6.16,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"CCT5",51.1,5.68,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"TCP1",198.3,7.63,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"CANX",61.9,5.95,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"CALR",52.6,5.72,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"PDIA3",162.1,7.34,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"SEC61A1",24,4.59,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPN1",96,6.59,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPN2",15,3.92,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"SSR1",221.8,7.79,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"TRAM1",64.8,6.02,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"SRP54",59.6,5.9,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"SRP68",33.5,5.07,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"SRP72",77,6.27,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"PSMA1",58.3,5.87,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"PSMB1",68.7,6.1,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"PSMC1",233.9,7.87,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"UBA1",83.2,6.38,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"UBE2D3",28.4,4.83,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"SKP1",145.2,7.18,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"CUL1",90.3,6.5,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RBX1",167.8,7.39,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"COPS5",129.9,7.02,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"GPS1",34.1,5.1,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"EIF3A",135.1,7.08,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"EIF3B",97.1,6.6,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"EIF3E",143.4,7.16,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPL3",64,6,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPL4",147.2,7.2,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPL5",9.3,3.23,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPL7",176.6,7.47,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPL8",202.2,7.66,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPL10",95,6.57,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPL11",15.5,3.96,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPL14",147.1,7.2,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPL18",176.2,7.46,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPL23",100.2,6.65,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPS3",124.7,6.96,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPS4X",76.7,6.26,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPS5",137,7.1,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPS6",157,7.3,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPS8",70.7,6.15,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPS10",20.3,4.35,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPS14",116.6,6.87,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPS15",183.7,7.52,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPS19",33.9,5.09,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"RPS24",18.9,4.25,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"HNRNPA1",116.2,6.86,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"HNRNPC",66.1,6.05,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"HNRNPK",145.3,7.18,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"HNRNPU",30.8,4.95,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"SRSF1",28.5,4.84,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"SRSF3",175.5,7.46,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"SF3B1",111.5,6.8,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"SNRPD1",144.8,7.18,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"DDX5",240.4,7.91,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"DHX9",83.8,6.39,"TCGA","Colorectal cancer","TCGA-DEMO-02",NA
+"GAPDH",9.5,3.26,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"ACTB",121.8,6.93,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"B2M",135,7.08,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"HPRT1",168.5,7.4,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"TBP",20,4.33,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"PPIA",30.8,4.95,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPLP0",58.7,5.88,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPL13A",26.5,4.73,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"SDHA",64.8,6.02,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"HMBS",64.9,6.02,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"YWHAZ",27.1,4.77,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"UBC",232.6,7.86,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"GUSB",82.4,6.37,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"HSP90AB1",86.7,6.44,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"LDHA",140.7,7.14,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"PGK1",108.3,6.76,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"TFRC",69.2,6.11,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"ALAS1",132.3,7.05,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"IPO8",71.7,6.17,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"POLR2A",24.2,4.6,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPS18",165.1,7.37,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPL19",91.8,6.52,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPL32",62.4,5.97,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"EEF1A1",38.9,5.29,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"EIF4A2",99.4,6.64,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"ATP5F1B",83.5,6.39,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"NDUFA1",154.4,7.27,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"COX7C",74.7,6.22,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"UQCRB",60.4,5.92,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"VDAC1",216.6,7.76,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"TUBA1A",61,5.93,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"TUBB",123.9,6.95,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"VIM",29.7,4.9,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"FLNA",54.9,5.78,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"MYH9",99.6,6.64,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"CLTC",51.1,5.68,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RAB1A",232.2,7.86,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RAB5A",98.5,6.62,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RAB7A",150.9,7.24,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"LAMP1",45.4,5.51,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"HSP90AA1",52.8,5.73,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"HSPA8",131.7,7.04,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"HSPA5",174.3,7.45,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"CCT2",152.3,7.25,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"CCT5",15.5,3.96,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"TCP1",194.2,7.6,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"CANX",161.3,7.33,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"CALR",81.3,6.35,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"PDIA3",135.1,7.08,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"SEC61A1",26.8,4.75,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPN1",25.5,4.68,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPN2",126.2,6.98,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"SSR1",34,5.09,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"TRAM1",92.3,6.53,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"SRP54",154.2,7.27,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"SRP68",39.9,5.32,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"SRP72",44.1,5.47,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"PSMA1",95.6,6.58,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"PSMB1",30.2,4.92,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"PSMC1",76.9,6.27,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"UBA1",205,7.68,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"UBE2D3",130.1,7.02,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"SKP1",146.7,7.2,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"CUL1",14.1,3.83,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RBX1",84.5,6.4,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"COPS5",144.1,7.17,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"GPS1",173.5,7.44,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"EIF3A",66.4,6.06,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"EIF3B",5.8,2.56,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"EIF3E",88.8,6.47,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPL3",184.9,7.53,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPL4",85.3,6.42,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPL5",132.5,7.05,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPL7",112.8,6.82,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPL8",64.6,6.02,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPL10",148.7,7.22,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPL11",107.8,6.75,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPL14",19.5,4.29,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPL18",159.1,7.31,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPL23",206.8,7.69,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPS3",131.8,7.04,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPS4X",10.4,3.39,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPS5",55,5.78,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPS6",126.6,6.99,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPS8",122.4,6.94,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPS10",106.1,6.73,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPS14",139.1,7.12,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPS15",48.9,5.61,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPS19",6,2.61,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"RPS24",128.8,7.01,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"HNRNPA1",66.3,6.05,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"HNRNPC",148,7.21,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"HNRNPK",45.1,5.5,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"HNRNPU",255.8,8,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"SRSF1",104.9,6.71,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"SRSF3",80.1,6.33,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"SF3B1",116.3,6.86,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"SNRPD1",160.8,7.33,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"DDX5",99.6,6.64,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"DHX9",14.8,3.9,"TCGA","Breast cancer","TCGA-DEMO-03",NA
+"GAPDH",88.8,6.47,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"ACTB",138,7.11,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"B2M",104.1,6.7,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"HPRT1",123.7,6.95,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"TBP",92.4,6.53,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"PPIA",99.4,6.64,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPLP0",126.3,6.98,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPL13A",211.4,7.72,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"SDHA",21.2,4.41,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"HMBS",89.3,6.48,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"YWHAZ",102,6.67,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"UBC",55.5,5.8,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"GUSB",38.4,5.27,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"HSP90AB1",54,5.76,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"LDHA",143.4,7.16,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"PGK1",60,5.91,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"TFRC",39.9,5.32,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"ALAS1",129.8,7.02,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"IPO8",26.4,4.73,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"POLR2A",193.2,7.59,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPS18",51,5.68,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPL19",140.4,7.13,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPL32",118.9,6.89,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"EEF1A1",93.5,6.55,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"EIF4A2",242.1,7.92,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"ATP5F1B",57.1,5.84,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"NDUFA1",196.2,7.62,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"COX7C",103.7,6.7,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"UQCRB",33.7,5.08,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"VDAC1",86.2,6.43,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"TUBA1A",193.1,7.59,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"TUBB",84,6.39,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"VIM",55.6,5.8,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"FLNA",109.1,6.77,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"MYH9",147,7.2,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"CLTC",113.1,6.82,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RAB1A",19.8,4.31,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RAB5A",18.5,4.22,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RAB7A",41.6,5.38,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"LAMP1",58.6,5.88,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"HSP90AA1",123.7,6.95,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"HSPA8",192.2,7.59,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"HSPA5",83.3,6.38,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"CCT2",23.9,4.58,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"CCT5",151.3,7.24,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"TCP1",95.7,6.58,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"CANX",212,7.73,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"CALR",15.8,3.99,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"PDIA3",138.5,7.11,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"SEC61A1",178,7.48,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPN1",154.7,7.27,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPN2",50.3,5.66,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"SSR1",173.9,7.44,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"TRAM1",37.2,5.22,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"SRP54",71.4,6.16,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"SRP68",217.2,7.76,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"SRP72",91.7,6.52,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"PSMA1",181.8,7.51,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"PSMB1",70.5,6.14,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"PSMC1",17.9,4.17,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"UBA1",46.9,5.55,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"UBE2D3",29.5,4.89,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"SKP1",78.8,6.3,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"CUL1",74,6.21,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RBX1",96.2,6.59,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"COPS5",106.8,6.74,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"GPS1",242.6,7.92,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"EIF3A",20.9,4.39,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"EIF3B",78.5,6.3,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"EIF3E",156.9,7.29,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPL3",198.3,7.63,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPL4",138.4,7.11,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPL5",169.4,7.41,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPL7",17.2,4.11,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPL8",171.9,7.43,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPL10",39.7,5.31,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPL11",65.8,6.04,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPL14",26.5,4.73,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPL18",89,6.48,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPL23",244.2,7.93,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPS3",223.1,7.8,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPS4X",22.9,4.52,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPS5",154,7.27,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPS6",173.8,7.44,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPS8",89.3,6.48,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPS10",65,6.02,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPS14",64.8,6.02,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPS15",103.4,6.69,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPS19",228.4,7.84,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"RPS24",193.3,7.6,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"HNRNPA1",138.9,7.12,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"HNRNPC",58.7,5.88,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"HNRNPK",108.5,6.76,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"HNRNPU",66.7,6.06,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"SRSF1",60.2,5.91,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"SRSF3",161.5,7.34,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"SF3B1",96.8,6.6,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"SNRPD1",104.8,6.71,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"DDX5",65.2,6.03,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"DHX9",129.9,7.02,"GTEX",NA,"GTEX-DEMO-01","Large intestine"
+"GAPDH",226,7.82,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"ACTB",43.3,5.44,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"B2M",85,6.41,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"HPRT1",88.7,6.47,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"TBP",60,5.91,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"PPIA",45.1,5.5,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPLP0",109.4,6.77,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPL13A",160.6,7.33,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"SDHA",139.5,7.13,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"HMBS",10.7,3.43,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"YWHAZ",56.6,5.83,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"UBC",57.3,5.84,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"GUSB",18.4,4.21,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"HSP90AB1",34.7,5.12,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"LDHA",34.9,5.13,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"PGK1",47.9,5.58,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"TFRC",7.1,2.85,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"ALAS1",126.5,6.98,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"IPO8",62.4,5.97,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"POLR2A",131.6,7.04,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPS18",187.6,7.55,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPL19",20,4.33,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPL32",86.2,6.43,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"EEF1A1",53.7,5.75,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"EIF4A2",131.3,7.04,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"ATP5F1B",123.6,6.95,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"NDUFA1",59,5.89,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"COX7C",97.9,6.61,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"UQCRB",144,7.17,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"VDAC1",113.2,6.82,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"TUBA1A",216.5,7.76,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"TUBB",52.1,5.71,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"VIM",81.5,6.35,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"FLNA",13.7,3.79,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"MYH9",89.7,6.49,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"CLTC",200,7.64,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RAB1A",10.4,3.39,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RAB5A",91.8,6.52,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RAB7A",27.7,4.8,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"LAMP1",193.8,7.6,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"HSP90AA1",211,7.72,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"HSPA8",150.7,7.24,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"HSPA5",147.8,7.21,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"CCT2",32.3,5.02,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"CCT5",197.3,7.62,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"TCP1",57.6,5.85,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"CANX",117.2,6.87,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"CALR",99.3,6.64,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"PDIA3",60.2,5.91,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"SEC61A1",159.5,7.32,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPN1",17.1,4.1,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPN2",58.8,5.88,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"SSR1",146.6,7.2,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"TRAM1",60.9,5.93,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"SRP54",85.3,6.42,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"SRP68",70,6.13,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"SRP72",236.4,7.89,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"PSMA1",177.5,7.47,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"PSMB1",209.3,7.71,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"PSMC1",36.3,5.19,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"UBA1",205.6,7.68,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"UBE2D3",152.3,7.25,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"SKP1",152.6,7.25,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"CUL1",29.6,4.89,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RBX1",34.5,5.11,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"COPS5",126.7,6.99,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"GPS1",229.3,7.84,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"EIF3A",117.7,6.88,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"EIF3B",7.4,2.91,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"EIF3E",61.3,5.94,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPL3",102.6,6.68,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPL4",17.3,4.12,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPL5",142,7.15,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPL7",7.2,2.87,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPL8",84.3,6.4,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPL10",69,6.11,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPL11",75.1,6.23,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPL14",86.5,6.44,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPL18",149.6,7.23,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPL23",146.8,7.2,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPS3",93.4,6.55,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPS4X",12.2,3.62,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPS5",24.4,4.61,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPS6",15.3,3.94,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPS8",128.6,7.01,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPS10",81,6.34,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPS14",128.9,7.01,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPS15",13.4,3.75,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPS19",58.1,5.86,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"RPS24",111.7,6.8,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"HNRNPA1",63.7,6,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"HNRNPC",110.1,6.78,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"HNRNPK",81.6,6.35,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"HNRNPU",138,7.11,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"SRSF1",70.7,6.15,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"SRSF3",114.8,6.84,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"SF3B1",199.3,7.64,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"SNRPD1",21.8,4.45,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"DDX5",82.3,6.36,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"DHX9",71.6,6.16,"GTEX",NA,"GTEX-DEMO-02","Large intestine"
+"GAPDH",125.7,6.97,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"ACTB",168.8,7.4,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"B2M",73,6.19,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"HPRT1",128,7,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"TBP",60.5,5.92,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"PPIA",90.6,6.5,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPLP0",28.2,4.82,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPL13A",45.1,5.5,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"SDHA",23,4.53,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"HMBS",141.3,7.14,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"YWHAZ",126,6.98,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"UBC",63.1,5.98,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"GUSB",28,4.81,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"HSP90AB1",69.6,6.12,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"LDHA",246,7.94,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"PGK1",157.2,7.3,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"TFRC",10.5,3.41,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"ALAS1",77.3,6.27,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"IPO8",203.1,7.67,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"POLR2A",74.8,6.23,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPS18",171.9,7.43,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPL19",82.8,6.37,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPL32",120.2,6.91,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"EEF1A1",144.4,7.17,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"EIF4A2",141.3,7.14,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"ATP5F1B",136,7.09,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"NDUFA1",30.3,4.93,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"COX7C",69.5,6.12,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"UQCRB",132.8,7.05,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"VDAC1",9.2,3.22,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"TUBA1A",14.8,3.9,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"TUBB",22.3,4.49,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"VIM",84.9,6.41,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"FLNA",151.5,7.24,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"MYH9",87.3,6.45,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"CLTC",83.4,6.38,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RAB1A",123.7,6.95,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RAB5A",57.4,5.85,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RAB7A",133.2,7.06,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"LAMP1",24,4.59,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"HSP90AA1",108.8,6.77,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"HSPA8",86.2,6.43,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"HSPA5",101.5,6.67,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"CCT2",193.3,7.6,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"CCT5",102.4,6.68,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"TCP1",132.2,7.05,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"CANX",159,7.31,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"CALR",57.1,5.84,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"PDIA3",81.9,6.36,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"SEC61A1",190.6,7.58,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPN1",18.3,4.2,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPN2",94.7,6.57,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"SSR1",98,6.62,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"TRAM1",152.4,7.25,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"SRP54",190.7,7.58,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"SRP68",114.9,6.85,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"SRP72",214.2,7.74,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"PSMA1",13.3,3.74,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"PSMB1",193.6,7.6,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"PSMC1",20.1,4.34,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"UBA1",180.9,7.5,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"UBE2D3",99.5,6.64,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"SKP1",196.7,7.62,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"CUL1",126.8,6.99,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RBX1",16,4.01,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"COPS5",10.7,3.43,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"GPS1",100.3,6.65,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"EIF3A",102.4,6.68,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"EIF3B",44.3,5.47,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"EIF3E",80.1,6.33,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPL3",68.3,6.1,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPL4",101.2,6.66,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPL5",33.2,5.06,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPL7",8.6,3.12,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPL8",65.5,6.04,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPL10",120.7,6.92,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPL11",229.6,7.84,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPL14",129.5,7.02,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPL18",96.9,6.6,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPL23",133.2,7.06,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPS3",102.4,6.68,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPS4X",67.5,6.08,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPS5",11,3.47,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPS6",23.1,4.54,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPS8",127.3,6.99,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPS10",21.2,4.41,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPS14",209,7.71,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPS15",15.8,3.99,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPS19",112.4,6.81,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"RPS24",132.7,7.05,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"HNRNPA1",78.5,6.3,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"HNRNPC",96.4,6.59,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"HNRNPK",171.6,7.42,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"HNRNPU",91,6.51,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"SRSF1",103.5,6.69,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"SRSF3",128.1,7,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"SF3B1",52.8,5.73,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"SNRPD1",207.2,7.7,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"DDX5",6.1,2.63,"GTEX",NA,"GTEX-DEMO-03","Breast"
+"DHX9",164.9,7.37,"GTEX",NA,"GTEX-DEMO-03","Breast"

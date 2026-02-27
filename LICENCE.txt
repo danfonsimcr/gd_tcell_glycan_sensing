@@ -1,0 +1,12 @@
+Copyright (c) 2026 Immunocore Limited. All Rights Reserved.
+
+This code in this repo is provided solely for the purpose of peer review and
+verification of the results described in the associated manuscript.
+
+No permission is granted to copy, modify, distribute, sublicense,
+or use this code for any commercial or non-commercial purpose
+beyond peer review without prior written consent from Immunocore Limited.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+Contact: daniel.fonseca@immunocore.com
